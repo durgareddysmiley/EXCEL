@@ -1,0 +1,36 @@
+🔹 SUM()
+
+Purpose: Adds numbers
+
+=SUM(A1:A10)
+
+🔹 COUNT()
+
+Purpose: Counts numeric cells
+
+=COUNT(A1:A10)
+
+🔹 COUNTA()
+
+Purpose: Counts non-empty cells
+
+=COUNTA(A1:A10)
+
+🔹 AVERAGE()
+
+Purpose: Finds average
+
+=AVERAGE(A1:A10)
+
+🔹 MAX()
+
+Purpose: Largest number
+
+=MAX(A1:A10)
+
+🔹 MIN()
+
+Purpose: Smallest number
+
+=MIN(A1:A10)
+ 

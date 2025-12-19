@@ -1,0 +1,113 @@
+1️⃣ TODAY()
+Purpose
+
+Returns today’s date automatically.
+
+Syntax
+=TODAY()
+
+Example
+=TODAY()
+
+Result
+19-12-2025   (changes daily)
+
+2️⃣ NOW()
+Purpose
+
+Returns current date and time.
+
+Syntax
+=NOW()
+
+Example
+=NOW()
+
+Result
+19-12-2025 14:35
+
+3️⃣ YEAR()
+Purpose
+
+Extracts year from a date.
+
+Syntax
+=YEAR(date)
+
+Example
+
+If A1 = 19-12-2025
+
+=YEAR(A1)
+
+Result
+2025
+
+4️⃣ MONTH()
+Purpose
+
+Extracts month number from a date.
+
+Syntax
+=MONTH(date)
+
+Example
+
+If A1 = 19-12-2025
+
+=MONTH(A1)
+
+Result
+12
+
+5️⃣ DAY()
+Purpose
+
+Extracts day from a date.
+
+Syntax
+=DAY(date)
+
+Example
+
+If A1 = 19-12-2025
+
+=DAY(A1)
+
+Result
+19
+
+🧠 Common Real-Life Examples
+🔹 Age Calculation
+
+If A1 = Date of Birth
+
+=YEAR(TODAY()) - YEAR(A1)
+
+🔹 Check Current Month
+=IF(MONTH(TODAY())=12,"December","Not December")
+
+🔹 Overdue Check
+=IF(A1<TODAY(),"Overdue","On Time")
+
+🟢 Quick Revision Table
+Formula	Output
+TODAY()	Date
+NOW()	Date + Time
+YEAR()	Year
+MONTH()	Month number
+DAY()	Day
+🟡 Important Notes
+
+Dates must be valid Excel dates
+
+TODAY & NOW update automatically
+
+Use Paste Special → Values to freeze dates
+
+🧠 One-Line Memory
+TODAY → Date  
+NOW → Date + Time  
+YEAR → Year  
+MONTH → Month  
+DAY → Day

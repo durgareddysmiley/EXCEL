@@ -1,0 +1,195 @@
+📘 Excel Formula Cheat Sheet (With Examples)
+🔤 1️⃣ TEXT FORMULAS
+🔹 LOWER()
+
+Purpose: Converts text to lowercase
+
+Syntax:
+
+=LOWER(text)
+
+
+Example:
+
+=LOWER("AUS")
+
+
+Result:
+
+aus
+
+🔹 UPPER()
+
+Purpose: Converts text to uppercase
+
+Syntax:
+
+=UPPER(text)
+
+
+Example:
+
+=UPPER("aus")
+
+
+Result:
+
+AUS
+
+🔹 PROPER()
+
+Purpose: Capitalizes first letter of each word
+
+Syntax:
+
+=PROPER(text)
+
+
+Example:
+
+=PROPER("aus")
+
+
+Result:
+
+Aus
+
+🔹 LEFT()
+
+Purpose: Extract characters from the left
+
+Syntax:
+
+=LEFT(text, number_of_characters)
+
+
+Example:
+
+=LEFT("Boxes", 2)
+
+
+Result:
+
+Bo
+
+🔹 RIGHT()
+
+Purpose: Extract characters from the right
+
+Syntax:
+
+=RIGHT(text, number_of_characters)
+
+
+Example:
+
+=RIGHT("Boxes", 2)
+
+
+Result:
+
+es
+
+🔹 MID()
+
+Purpose: Extract characters from the middle
+
+Syntax:
+
+=MID(text, start_position, number_of_characters)
+
+
+Example:
+
+=MID("Boxes", 2, 2)
+
+
+Result:
+
+ox
+
+🔹 LEN()
+
+Purpose: Counts number of characters
+
+Syntax:
+
+=LEN(text)
+
+
+Example:
+
+=LEN("Boxes")
+
+
+Result:
+
+5
+
+🔹 TRIM()
+
+Purpose: Removes extra spaces
+
+Syntax:
+
+=TRIM(text)
+
+
+Example:
+
+=TRIM("  aus  ")
+
+
+Result:
+
+aus
+
+🔹 FIND()
+
+Purpose: Finds position of text (case-sensitive)
+
+Syntax:
+
+=FIND(find_text, within_text)
+
+
+Example:
+
+=FIND("o","Boxes")
+
+
+Result:
+
+2
+
+🔹 SUBSTITUTE()   
+
+Purpose: Replaces text
+
+Syntax:
+
+=SUBSTITUTE(text, old_text, new_text)
+
+
+Example:
+
+=SUBSTITUTE("aus","aus","AUS")
+
+
+Result:
+
+AUS
+
+
+🟢 MOST IMPORTANT FOR REVISION
+LOWER   → lowercase
+UPPER   → uppercase
+PROPER  → first letter capital
+LEFT    → from left
+RIGHT   → from right
+MID     → from middle
+LEN     → length
+TRIM    → remove spaces
+FIND    → position
+SUBSTITUTE → replace text
+SUM     → add numbers

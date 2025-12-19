@@ -1,0 +1,78 @@
+1️⃣ IF()
+Purpose
+
+Checks a condition and returns different results for TRUE and FALSE.
+
+Syntax
+=IF(condition, value_if_true, value_if_false)
+
+Example
+
+If A1 = 60 (Marks):
+
+=IF(A1>=50,"Pass","Fail")
+
+Result
+Pass
+
+2️⃣ AND()
+Purpose
+
+Checks multiple conditions.
+Returns TRUE only if ALL conditions are TRUE.
+
+Syntax
+=AND(condition1, condition2, ...)
+
+Example
+
+If A1 = 75:
+
+=AND(A1>=50, A1<=100)
+
+Result
+TRUE
+
+AND with IF (Real Use Case)
+=IF(AND(A1>=50, A1<=100),"Pass","Fail")
+
+3️⃣ OR()
+Purpose
+
+Checks multiple conditions.
+Returns TRUE if ANY ONE condition is TRUE.
+
+Syntax
+=OR(condition1, condition2, ...)
+
+Example
+
+If A1 = 40:
+
+=OR(A1>=50, A1=40)
+
+Result
+TRUE
+
+OR with IF (Real Use Case)
+=IF(OR(A1="Saturday", A1="Sunday"),"Holiday","Working Day")
+
+4️⃣ IFERROR()
+Purpose
+
+Handles Excel errors and replaces them with a clean value.
+
+Syntax
+=IFERROR(formula, value_if_error)
+
+Example 1 (Division)
+
+If:
+
+A1 = 10
+B1 = 0
+
+=IFERROR(A1/B1, 0)
+
+Result
+0

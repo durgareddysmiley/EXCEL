@@ -1,0 +1,80 @@
+📊 How Much Excel Does a Data Analyst REALLY Need?
+🔥 LEVELS OF EXCEL FOR DATA ANALYST
+🟢 LEVEL 1 – DONE (You already know this)
+
+✔ Data cleaning basics
+✔ Pivot Tables
+✔ Charts
+✔ Dashboards
+✔ Slicers
+
+👉 This is Intern level Excel
+👉 Good start, but not enough for resume strength
+
+🟡 LEVEL 2 – MUST LEARN (Very Important)
+
+This is where real analysts stand.
+
+🔹 1️⃣ Advanced Formulas (MOST IMPORTANT)
+
+Learn logic-based formulas, not 100 formulas.
+
+You MUST know:
+
+IF
+
+IFS
+
+AND, OR
+
+VLOOKUP / XLOOKUP
+
+INDEX + MATCH
+
+COUNTIFS, SUMIFS
+
+TEXT, LEFT, RIGHT
+
+DATE, MONTH, YEAR
+
+👉 These are used in real company work
+
+🔹 2️⃣ Data Cleaning (Real Analyst Skill)
+
+Companies give dirty data, not clean data.
+
+Learn:
+
+Remove duplicates
+
+Text to columns
+
+TRIM, CLEAN
+
+Find & Replace
+
+Handling missing values
+
+🔹 3️⃣ Excel Tables
+
+Very underrated skill.
+
+Why?
+
+Auto-expanding data
+
+Easy formulas
+
+Used in professional models
+
+🔹 4️⃣ Conditional Formatting (Smart Use)
+
+Use it to:
+
+Highlight top performers
+
+Flag low values
+
+Trend colors
+
+👉 Makes analysis insightful, not decorative.

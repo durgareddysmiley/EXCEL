@@ -72,6 +72,36 @@ If:
 A1 = 10
 B1 = 0
 
+5📌 COUNTIF – Structure (Excel)
+🔹 Purpose
+
+Counts the number of cells in a range that satisfy one condition.
+
+🔹 Syntax
+=COUNTIF(range, criteria)
+
+🔹 Structure Explained
+
+range
+→ The cells to be checked
+Example: A1:A10
+
+criteria
+→ The condition (written inside double quotes " ")
+Examples:
+
+">50"
+
+"Apple"
+
+"<>0"
+
+🔹 Example
+=COUNTIF(A1:A10, ">50")
+
+
+✔ Counts how many values in A1:A10 are greater than 50
+
 =IFERROR(A1/B1, 0)
 
 Result

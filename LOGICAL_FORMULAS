@@ -102,7 +102,29 @@ Examples:
 
 ✔ Counts how many values in A1:A10 are greater than 50
 
+
 =IFERROR(A1/B1, 0)
 
 Result
 0
+
+📌 What is SUMIF?
+
+👉 SUMIF adds values IF a condition is TRUE
+
+🔹 Syntax (Structure)
+=SUMIF(range, criteria, [sum_range])
+
+🔹 Simple Example
+Data:
+A (Marks)
+30
+60
+80
+40
+Formula:
+=SUMIF(A1:A4, ">50")
+
+
+✔ Adds only values greater than 50
+✔ Result = 60 + 80 = 140

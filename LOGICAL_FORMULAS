@@ -128,3 +128,61 @@ Formula:
 
 ✔ Adds only values greater than 50
 ✔ Result = 60 + 80 = 140
+
+🔹 VLOOKUP (Vertical Lookup)
+📌 What is VLOOKUP?
+
+VLOOKUP is used to search a value in the first column of a table and return a related value from another column in the same row.
+
+👉 It searches vertically (top to bottom).
+
+📌 Syntax
+=VLOOKUP(lookup_value, table_array, col_index_num, range_lookup)
+small example for reference writing below 
+=VLOOKUP("AUS".drag the table array,which column answer there that column number write accrding how you drag,if you write true it will also find approximate one (NOT FREATER THAN ONLY LESS THAN) OR (False means exact match)
+
+📌 Example Table
+ID	Name	Marks
+1	   Ali	 85
+2	  Sara	 90
+3	  Tom	   78
+📌 Example 1: Exact Match
+
+Find Marks of ID 2
+
+=VLOOKUP(2, A2:C4, 3, FALSE)
+
+
+✔ Output: 90
+
+Explanation:
+
+2 → value to find
+
+A2:C4 → table
+
+3 → Marks column
+
+FALSE → exact match
+
+📌 Example 2: Approximate Match (Grades)
+Marks From	Grade
+0	             F
+50	           D
+60	           C
+70	           B
+80	           A
+=VLOOKUP(75, A2:B6, 2, TRUE)
+
+
+✔ Output: B
+
+📌 Reason: Excel takes largest value ≤ 75, which is 70.
+
+⚠️ Limitations of VLOOKUP
+
+Lookup value must be in first column
+
+Can only search left → right
+
+Column number is fixed (can break if columns move)

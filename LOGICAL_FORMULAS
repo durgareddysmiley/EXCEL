@@ -92,7 +92,7 @@ Examples:
 
 ">50"
 
-"Apple"
+"Apple" 
 
 "<>0"
 
@@ -141,6 +141,8 @@ VLOOKUP is used to search a value in the first column of a table and return a re
 small example for reference writing below 
 =VLOOKUP("AUS".drag the table array,which column answer there that column number write accrding how you drag,if you write true it will also find approximate one (NOT FREATER THAN ONLY LESS THAN) OR (False means exact match)
 
+AND ONE MORE THING THAT
+IF YOU WRITE TRUE CONDITION THAN THE DATA MUST BE SORTED 
 📌 Example Table
 ID	Name	Marks
 1	   Ali	 85

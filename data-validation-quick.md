@@ -1,4 +1,4 @@
-# Data Validation – Quick Revision
+g# Data Validation – Quick Revision
 
 ## Purpose
 Restrict wrong data entry.
@@ -13,7 +13,7 @@ Restrict wrong data entry.
 4. Set condition
 5. OK
 
-## Example (Dropdown)
+## Example (Dropdown) 
 Allow → List
 Source → Yes,No
 

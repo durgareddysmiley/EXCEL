@@ -110,6 +110,16 @@ Click Finish
 State	            Road
 Andhra Pradesh	   NH16
 
-## Change Data Type
-Purpose: Convert text → number/date
+## Delete Irrelevant Columns
+📌 Purpose
+Remove columns that are not needed for analysis or dashboard.
 
+Home → Delete → Delete Sheet Columns
+🔎 Example (Clear)
+❌ Before
+State	   Accidents	Deaths	Remarks
+AP	         120	    45	   Verified
+✅ After
+State	 Accidents	Deaths
+AP	      120	      45
+Here which column you want to delte that mention properly

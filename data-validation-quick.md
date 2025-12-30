@@ -80,3 +80,32 @@ Andhra
 ## We can also use clean+trim 
 Use TRIM + CLEAN together:
 =TRIM(CLEAN(A1))
+
+## Text to Columns
+📌 Purpose
+
+Splits one column into multiple columns based on a delimiter
+(like -, ,, space, tab, etc.)
+
+❌ Before (Problem)
+
+Single column A contains:
+
+Andhra Pradesh - NH16
+
+All information is in one cell ❌
+Hard to analyze, filter, or group.
+
+🔹 How to Use (Step-by-Step)
+
+Select the column (A)
+
+Go to Data → Text to Columns
+Choose Delimited
+Click Next
+Select delimiter → -
+Click Finish
+
+✅ After (Result)
+State	            Road
+Andhra Pradesh	   NH16

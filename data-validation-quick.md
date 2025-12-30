@@ -123,3 +123,28 @@ AP	         120	    45	   Verified
 State	 Accidents	Deaths
 AP	      120	      45
 Here which column you want to delte that mention properly
+
+## Data Validation
+These can be used in so many ways like making the numbers as list and to make a security like deaths >=0 when we enter -5 it is not valid 
+
+Data → Data Validation
+
+✅ Example 1: Deaths ≥ 0 (No negative values)
+❌ Problem
+
+Someone may enter:
+-5
+Which is invalid ❌
+
+✅ Steps to Apply Validation
+
+1️⃣ Select the Deaths column
+2️⃣ Go to Data → Data Validation
+3️⃣ Under Allow, choose:
+Whole numbers
+4️⃣ Under Data, choose:
+greater than or equal to
+
+5️⃣ Enter:
+0
+6️⃣ Click OK

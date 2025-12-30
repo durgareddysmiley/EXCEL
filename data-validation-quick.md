@@ -91,7 +91,7 @@ Splits one column into multiple columns based on a delimiter
 
 Single column A contains:
 
-Andhra Pradesh - NH16
+Andhra Pradesh - NH16V
 
 All information is in one cell ❌
 Hard to analyze, filter, or group.
@@ -109,3 +109,7 @@ Click Finish
 ✅ After (Result)
 State	            Road
 Andhra Pradesh	   NH16
+
+## Change Data Type
+Purpose: Convert text → number/date
+

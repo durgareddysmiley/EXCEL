@@ -46,3 +46,37 @@ Row 1:
 101 | Andhra Pradesh | 2022 | 15
 Row 3:
 101 | Andhra Pradesh | 2022 | 15 -- AFTER CHECKING ROW1 AND ROW3 EXCEL FINDS AND REMOVE ONE THIS IS THE CHECKING PROCESS 
+
+## TRIM
+Formula:
+
+=TRIM(A1)
+
+Example:
+" Andhra " → "Andhra"
+
+When to use:
+✔ Grouping errors
+✔ Filter not working properly
+
+## CLEAN (Remove Hidden Characters)
+
+Purpose: Remove non-printable characters
+
+Formula:
+
+=CLEAN(A1)
+❌ Before CLEAN (Problem)
+
+Cell A1 contains:
+
+Andhra↵
+↵ = hidden line break (not visible in Excel)
+
+✅ After CLEAN (Result)
+Output:
+Andhra
+
+## We can also use clean+trim 
+Use TRIM + CLEAN together:
+=TRIM(CLEAN(A1))

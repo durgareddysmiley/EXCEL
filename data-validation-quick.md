@@ -1,6 +1,6 @@
 g# Data Validation – Quick Revision
 
-## Purpose
+## Purpose 
 Restrict wrong data entry.
 
 ## Steps
